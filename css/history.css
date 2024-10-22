@@ -1,0 +1,51 @@
+.malimet{
+    display: flex;
+    background-color: red;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+body{
+    background: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_495340623_2000123520009280248_230376.jpg);
+}
+.suret{
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all;
+
+}
+.suret:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
+.silka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px yellow;
+    margin-left: 680px;
+    transition: all;
+    
+    
+    
+
+}
+.silka:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}

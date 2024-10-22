@@ -1,0 +1,188 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+header a{
+    text-decoration: none;
+    transition: all;
+    color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    
+}
+header h2{
+    animation: cola 2s infinite ;
+    color: white;
+    transition: all;
+    background-color: rgb(253, 0, 0);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+}
+@keyframes cola{
+    0%{
+        rotate: -10deg;
+    }
+    50%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+} 
+header h2:hover{
+    color: black    ;
+    transition-duration: 0,5s;
+}
+
+header a:hover{
+    background-color: rgb(248, 0, 0);
+    
+    border-radius: 10px;
+   
+    transition-duration: 0,5s;
+    color: black;
+    box-shadow: 5px 5px 5px white;
+}
+body{
+    background: url(https://wallpapercave.com/wp/wp416638.jpg);
+    font-family: cursive;
+}
+
+img{
+    width: 210px;
+    height: 230px;
+    object-fit: cover;
+}
+.cola img{
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+
+}
+.cola{
+    background: rgba(240, 8, 8, 0.892);
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 40px 40px 40px black;
+    transition: all;
+    
+}
+.cola:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.colo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.div2{
+    background: rgba(240, 8, 8, 0.892);
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 40px 40px 40px black;
+    transition: all;
+}
+.div2:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+
+
+    
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+    transition: all;
+    box-shadow: 5px 5px 5px black;
+
+}
+button:hover{
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px black;
+
+}
+h2{
+    transition: all;
+}
+h2:hover{
+    transition-duration: 1s;
+    color: white;
+}
+h4{
+    transition: all;
+}
+h4:hover{
+    transition-duration: 1s;
+    color: white;
+}
+.suret{
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    transition: all;
+}
+.suret:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+    
+
+}
+input{
+    border-radius: 10px;
+    width: 280x;
+    height: 40px;
+    box-shadow: 5px 5px 5px white;
+}
+
+video{
+    width: 1200px;
+    height: 700px;
+    box-shadow: 0px 0px 20px white; 
+}
